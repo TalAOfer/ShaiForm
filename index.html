@@ -11,6 +11,12 @@
             padding: 20px;
             background-color: rgb(227, 252, 246);
         }
+        .header-text {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2d3748;
+            line-height: 1.5;
+        }
         form {
             background-color: #fff0f5;
             padding: 30px;
@@ -111,6 +117,11 @@
     </style>
 </head>
 <body>
+    <div class="header-text">
+        <p>רוצים לשמוע עוד פרטים על הסדנאות שלנו?</p>
+        <p>רק נשאר למלא פרטים, ללחוץ על "שלח", ואנחנו ניצור אתכם קשר :)</p>
+    </div>
+    
     <form id="contactForm">
         <div class="form-group">
             <label for="name">שם:</label>
@@ -124,17 +135,14 @@
             <label for="phone">טלפון:</label>
             <input type="tel" id="phone" name="entry.1638912091" required>
         </div>
-        <div class="form-group">
-            <label for="age">גיל:</label>
-            <input type="number" id="age" name="entry.1868959874" required>
-        </div>
         <button type="submit">שלח</button>
     </form>
 
     <div class="thank-you-overlay" id="thankYouMessage">
         <div class="thank-you-message">
-            תודה שהשארת פרטים. ניצור איתך קשר בהקדם!
-        </div>
+            נרשמת בהצלחה:) 
+            ניצור איתכם קשר ברגע שיפתחו מועדים לסדנאות     
+           </div>
     </div>
 
     <script>
